@@ -25,7 +25,7 @@ The agent can be run with:
 ```
 python Behavioural_cloning.py
 ```
-The BC agent comes with pretrained models. If you want to train it yourself, you will have to uncomment the `train()` line.
+The BC agent comes with pretrained models. If you want to train it yourself, you will have to uncomment the `train()` line at the end of the file.
 
 ## Submittable repository
 Under construction.
