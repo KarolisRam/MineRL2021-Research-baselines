@@ -1,5 +1,5 @@
 # MineRL2021-Research-baselines
-[MineRL 2021](https://minerl.io/) Research track baseline agent uses Behavioural cloning.  
+[MineRL 2021](https://minerl.io/) Research track baseline agent uses Behavioural cloning (BC).  
 
 The agent can be run in three different ways:
 1. Colab notebook
