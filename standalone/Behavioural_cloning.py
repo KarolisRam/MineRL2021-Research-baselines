@@ -190,14 +190,15 @@ def train():
 
     # Save network and the centroids into separate files
     np.save(TRAIN_KMEANS_MODEL_NAME, action_centroids)
-    th.save(network, TRAIN_MODEL_NAME)
+    th.save(network.state_dict(), TRAIN_MODEL_NAME)
     del data
 
 
 def test():
     print("Running episodes")
     action_centroids = np.load(TEST_KMEANS_MODEL_NAME)
-    network = th.load(TEST_MODEL_NAME).cuda()
+    network = NatureCNN((3, 64, 64), NUM_ACTION_CENTROIDS).cuda()
+    network.load_state_dict(th.load(TEST_MODEL_NAME))
 
     env = gym.make('MineRLObtainDiamondVectorObf-v0')
 
