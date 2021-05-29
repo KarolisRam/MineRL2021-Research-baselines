@@ -28,7 +28,10 @@ python Behavioural_cloning.py
 The BC agent comes with pretrained models. If you want to train it yourself, you will have to uncomment the `train()` line at the end of the file.
 
 ## Submittable repository
-Under construction.
+
+The following link will lead you to submittable version of the baselines:
+
+[Behavioural cloning](https://github.com/minerllabs/minerl-diamond-2021-research-bc-submission-kit)
 
 ## Results
 Baseline results over several hundreds of episodes can be seen below:  
