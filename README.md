@@ -33,7 +33,11 @@ Under construction.
 ## Results
 Baseline results over several hundreds of episodes can be seen below:  
 
-![](img/BC_baselines_table.png)
+![](img/BC_baselines_table.png)  
+
+Results above are achieved using the provided trained models. Colab baselines retrain every time and use a lower DATA_SAMPLES parameter (400,000 instead of 1,000,000) to fit the available RAM. Here are the results from three separate fully retrained models using those parameters:  
+
+![](img/colab_BC_baselines_tables.png)  
 
 ## Credits
 Thank you to [Anssi Kanervisto](https://github.com/Miffyli) for developing most of the Behavioural cloning baseline.
